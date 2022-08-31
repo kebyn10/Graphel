@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #24282B;
+    border-bottom: solid #1293D4 5px;
+}
+
+.blanco{
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.azul{
+    margin: 0 0 0 13px;
+    color: #1293D4;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link-primero{
+    margin: 0 30px 0 0;
+    text-decoration: none;
+    color: #1293D4
+}
+
+.link-2{
+    margin: 0 30px 0 0;
+    text-decoration: none;
+    color: #1293D4
+}
+
+.link-3{
+    margin: 0 30px 0 0;
+    text-decoration: none;
+    color: #1293D4
+}
+
+.link{
+    margin: 0 30px 0 0;
+    text-decoration: none;
+    color: white;
+}
+
+.ultimo-link{
+    text-decoration: none;
+    color: white;
+}
+
+.ultimo-link-4{
+    text-decoration: none;
+    color: #1293D4;
+}
+
+header{
+    background: url(../images/cabecera.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0 0 30px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.cabeza p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.suscribe{
+    background-color: #24282B;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suscribe p{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.suscribe input{
+    height: 30px;
+    width: 245px;
+    padding: 0 0 0 5px;
+}
+
+.suscribe button{
+    height: 37px;
+    width: 100px;
+    background-color: #E8491D;
+    color: white;
+    border: none;
+}
+
+.diseño{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 50px 0;
+}
+
+.contenido{
+    width: 400px;
+    margin: 0 0 0 100px;
+    text-align: center;
+}
+
+.contenido2{
+    width: 400px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.contenido3{
+    width: 400px;
+    margin: 0 100px 0 0;
+    text-align: center;
+}
+
+.content h2{
+    margin: 15px 0 15px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content-2 h2{
+    margin: 15px 0 15px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content-3 h2{
+    margin: 15px 0 15px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+footer{
+    height: 90px;
+    background-color: #1293D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.todo-con{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.todo2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+.nosotros{
+    width: 40%;
+    margin: 0 0 0 0;
+}
+
+.texto-blanco{
+    font-size: 17px;
+    margin: 25px 0 15px 0;
+    
+}
+
+.texto-blanco h2{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-gris{
+    font-size: 17px;
+    margin: 0 0 25px 0; 
+    color: white;
+    background-color: #2e3b44; 
+    padding: 15px;
+}
+
+.imagen-1{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.lado{
+    background-color: #2e3b44;
+    margin: 25px 0 0 0;
+    width: 35%;
+    height: 250px;
+    padding: 35px 5px 30px 20px;
+    color: white;
+}
+
+.lado h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.lado p{
+    font-size: 17px;
+}
+
+.lado2{
+    background-color: #2e3b44;
+    width: 30%;
+    margin: 25px 0 0 0;
+    height: 250px;
+    padding: 35px 5px 30px 20px;
+    color: white;
+}
+
+.lado2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.lado2 p{
+    font-size: 17px;
+}
+
+.servicios{
+    width: 50%;
+}
+
+.texto-servicios{
+    font-size: 17px;
+    margin: 0 0 5px 0; 
+    background-color: #d6d6d6;
+    border: #bbbbbb solid 1px; 
+    padding: 35px 25px 30px 20px;
+}
+
+.texto-servicios p{
+    margin-bottom: 25px;
+}
+
+.texto-servicios h2{
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.servi{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacto{
+    width: 900px;
+    margin: 0 0 0 150px;
+}
+
+.lado3{
+    background-color: #2e3b44;
+    margin: 25px 120px 0 80px;
+    height: 250px;
+    padding: 35px 5px 30px 20px;
+    color: white;
+    
+}
+
+.lado3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.lado3 p{
+    font-size: 17px;
+}
+.cuadrito{
+    width: 25%;
+    margin:10px 0 0 0;
+    color: aliceblue;
+    padding: 20px;
+  
+}
+
+.todo4{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.formu{
+    width: 50%;
+}
+
+.formu h3{
+    margin-bottom: 5px;
+    margin-top: 5%;
+}
+.formu p{
+    margin-top: 10px;
+}
+
+.cuadro{
+    width: 100%;
+    height: 7%;
+    margin: 0 0 5px 0;
+}
+
+.cuadro-grande{
+    width: 100%;
+    height: 20%;
+    margin: 0 0 5px 0;
+}
+
+.texto-lado{
+    width: 90%;
+    background-color: #2e3b44;
+    height: max-content;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+
+.formu button{
+width: 100%;
+height: 10%;
+color: white;
+background-color: #E8491D;
+border: none;
+font-size: 15px;
+}
+
+.imagencita{
+    width: 100%;
+   
+}
+
+  
+
+@media (max-width:1000px) {
+    .cabeza{
+        width: 650px;
+        margin: 10% 0 10% 0;
+    }
+    header{
+        height: max-content;
+    }
+}
+
+@media (max-width:750px) {
+    nav{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .diseño{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenido{
+        margin: 0 0 15% 0;
+    }
+    .contenido2{
+        margin: 0 0 15% 0;
+    }
+    .contenido3{
+        margin: 0 0 15% 0;
+    }
+    .suscribe{
+        flex-wrap: wrap;
+        padding: 5%;
+    }
+    .todo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .servicios{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-blanco{
+        width: 100%;
+    }
+    .todo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .todo-con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nosotros{
+        width: 80%;
+    }
+    .lado{
+        width: 74%;
+        padding: 3%;
+        margin-bottom: 5%;
+    }
+    .todo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-servicios{
+        width: 80%;
+    }
+    .lado2{
+        width: 80%;
+        margin: 0;
+        padding: 4%;
+    }
+    .todo4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formu{
+        width: 80%;
+
+    }
+    .cuadrito{
+        width: 80%;
+        padding: 0;
+    }
+    .formu button{
+        height: 50px;
+    }
+}
